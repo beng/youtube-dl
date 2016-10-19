@@ -364,8 +364,8 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
         # RTMP (unnamed)
         '_rtmp': {'protocol': 'rtmp'},
     }
-    _SUBTITLE_FORMATS = ('ttml', 'vtt')
 
+    _SUBTITLE_FORMATS = ('ttml', 'srv3')
     IE_NAME = 'youtube'
     _TESTS = [
         {
